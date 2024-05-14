@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social-Book</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+  <!-- ====== start navbar -->
+
+    <nav>
+
+      <div class="container">
+          <!-- ========== Logo ========== -->
+
+            <h2 class="logo">Socialbook</h2>
+   
+            <!-- ============== Input Search ============ -->
+          <div class="search-bar">
+            <i class="fa fa-search"></i>
+            <input type="search" id="search" placeholder="search for creators, inspirations, and projects">
+          </div>
+
+          <!-- ============== Profile =============== -->
+
+          <div class="create">
+             <label for="craete-post" class="btn btn-primary">Create</label>
+              <div class="profile-photo">
+                <img src="images/profile/p1.jpg" alt="avatar">
+              </div>
+            </div>
+   
+       </div>
+
+    </nav>
+
+  <!-- ====== End navbar -->
+
+
+  <!-- ========================= Main ============================ -->
+
+  <main>
+     <div class="container">
+
+       <!-- ========================= Start Left ============================ -->
+        <div class="left">
+          <!-- ========= Profile ============ -->
+          <a class="profile">
+            <div class="profile-photo">
+              <img src="images/profile/p1.jpg" alt="profile">
+            </div>
+
+            <div class="handle">
+              <h4> Mohamed Ahmed </h4>
+              <p class="text-muted">
+                @Mohamed
+              </p>
+            </div>
+          </a>
+
+
+          <!-- ==================== Sidbar ========================== -->
+
+        <div class="sidebar">
+
+    
+          <a class="menu-item active">
+            <span> <i class="fa fa-home"></i> </span> <h3> Home </h3>
+          </a>
+
+          <a class="menu-item">
+            <span> <i class="fa fa-compass"></i> </span> <h3> Explore </h3>
+          </a>
+
+          <a class="menu-item" id="notifications">
+            <span> <i class="fa fa-bell"> <small class="notification-count">+9</small> </i>  </span> <h3> Notifications </h3>
+
+            <!-- =============== Notifications Popup ================ -->
+
+            <div class="notifications-popup">
+
+              <div>
+                <div class="profile-photo">
+                  <img src="images/profile/seeda-profile.jpg">
+                </div>
+                <div class="notifications-body">
+                  <b> Ahmed Adam </b> and <b> 276 others </b> liked your post
+                  <small class="text-muted">5 MINUTES AGO</small>
+                </div>
+             </div>
+
+
+              <div>
+                <div class="profile-photo">
+                   <img src="images/profile/shaweesh-profile.jpg">
+                </div>
+                <div class="notifications-body">
+                  <b> Momin Khalid </b> commented on your post
+                  <small class="text-muted">1 HOUR AGO</small>
+                </div>
+             </div>
+
+             <div>
+                <div class="profile-photo">
+                  <img src="images/profile/Alameen-profile.jpg">
+                </div>
+                <div class="notifications-body">
+                  <b> Ameen Hayder </b> commented on your post are tagged in
+                  <small class="text-muted">2 HOUR AGO</small>
+                </div>
+             </div>
+
+             <div>
+              <div class="profile-photo">
+                <img src="images/profile/walter-profile.jpg">
+              </div>
+              <div class="notifications-body">
+                <b> Ahmed Adil</b> commented on your post are tagged in
+                <small class="text-muted">6 HOUR AGO</small>
+              </div>
+           </div>
+
+           <div>
+            <div class="profile-photo">
+               <img src="images/profile/p9.jpg">
+            </div>
+            <div class="notifications-body">
+              <b> Ahmed Nurein </b> Accepted Your friend Request
+              <small class="text-muted">2 DAYS AGO</small>
+            </div>
+         </div>
+
+            </div>
+          </a>
+
+          <a class="menu-item" id="messages-notifications">
+            <span> <i class="fa fa-envelope"> <small class="notification-count">6</small> </i>  </span> <h3> Messages </h3>
+          </a>
+
+          <a class="menu-item">
+            <span> <i class="fa fa-bookmark"></i> </span> <h3> Bookmarks </h3>
+          </a>
+
+          <a class="menu-item">
+            <span> <i class="fa fa-chain-broken"></i> </span> <h3> Analytics </h3>
+          </a>
+
+          <a class="menu-item" id="theme">
+            <span> <i class="fa fa-themeisle"></i> </span> <h3> Themes </h3>
+          </a>
+
+          <a class="menu-item">
+            <span> <i class="fa fa-gear"></i> </span> <h3> Settings </h3>
+          </a>
+
+        </div>
+
+          <!-- ==================== End Sidbar ========================== -->
+
+          <label for="create-post" class="btn btn-primary">Create Post</label>
+
+            
+        </div>
+       <!-- ========================= End Left ============================ -->
+
+
+       <!-- ========================= Start Middle ========================== -->
+       <div class="middle">
+        <!-- ============== Start Stories =============== -->
+          <div class="stories">
+
+            <div class="story">
+              <div class="profile-photo">
+                <img src="images/profile/p1.jpg" alt="profile">
+              </div>
+                <p class="name">Your Story</p>
+            </div>
+
+            <div class="story">
+              <div class="profile-photo">
+                <img src="images/profile/walter-profile.jpg" alt="profile">
+              </div>
+                <p class="name">Ahmed Adil</p>
+            </div>
+
+            <div class="story">
+              <div class="profile-photo">
+                <img src="images/profile/shaweesh-profile.jpg" alt="profile">
+              </div>
+                <p class="name">Momin Nurien</p>
+            </div>
+
+            <div class="story">
+              <div class="profile-photo">
+                <img src="images/profile/seeda-profile.jpg" alt="profile">
+              </div>
+                <p class="name">Ahmed Adam</p>
+            </div>
+
+            <div class="story">
+              <div class="profile-photo">
+                <img src="images/profile/Alameen-profile.jpg" alt="profile">
+              </div>
+                <p class="name">Ameen Hayder</p>
+            </div>
+
+            <div class="story">
+              <div class="profile-photo">
+                <img src="images/profile/dan-profile.jpg" alt="profile">
+              </div>
+                <p class="name">Mohmed Mohey</p>
+            </div>
+
+          </div>
+        <!-- ============== End Of Stories =============== -->
+
+        <form class="create-post">
+          <div class="profile-photo">
+             <img src="images/profile/p1.jpg" alt="profile">
+          </div>
+          <input type="text" placeholder="what's on your mind, Mohamed?" id="create-post">
+          <input type="submit" value="Post" class="btn btn-primary">
+        </form>
+        
+        <!-- ====================== FEEDS ========================= -->
+
+        <div class="feeds">
+
+           <!-- ====================== Feeds 1 ========================= -->
+
+           <div class="feed">
+
+            <div class="head">
+              <div class="user">
+                  <div class="profile-photo">
+                    <img src="images/profile/elzeo-profile.jpg" alt="profile">
+                  </div>
+                  <div class="info">
+                    <h3>Osama Mohamed</h3>
+                    <small class="text-muted">Egypt, 1 HOUR AGO</small>
+                  </div>
+                 
+              </div>
+
+              <span class="edit">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+              </span>
+
+            </div>
+
+            <div class="photo">
+              <video controls>
+                <source src="vedioes/elzero.mp4" type="video/mp4">
+              </video>
+            </div>
+
+            <div class="action-buttons">
+              <div class="interaction-buttons">
+                <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                <span> <i class="fa fa-comment-o"></i></span>
+                <span> <i class="fa fa-share-square-o" aria-hidden="true"></i> </span>
+              </div>
+              <div class="bookmark">
+                <span> <i class="fa fa-bookmark-o"></i> </span>
+              </div>
+            </div>
+
+            <div class="liked-by">
+              <span><img src="images/profile/walter-profile.jpg" alt=""></span>
+              <span><img src="images/profile/p1.jpg" alt=""></span>
+              <span><img src="images/profile/seeda-profile.jpg" alt=""></span>
+              <p>Liked by <b class="name-comment"> Ahmed Adam </b>  and <b class="name-comment"> 200,306 others </b> </p>
+            </div>
+
+            <div class="caption">
+              <p>
+                <b class="name-comment">Osama Mohamed</b> Lorem ipsum dolor sit amet consectetur. <span class="hash-tag">#Freestyle_Football</span>
+              </p>
+            </div>
+
+            <div class="comments text-muted"> View All 300 comments </div>
+
+           </div>
+
+
+        <!-- ====================== Feeds 2 ========================= -->
+
+          <div class="feed">
+
+            <div class="head">
+              <div class="user">
+                  <div class="profile-photo">
+                    <img src="images/profile/shaweesh-profile.jpg" alt="profile">
+                  </div>
+                  <div class="info">
+                    <h3>Momin Nurein</h3>
+                    <small class="text-muted">Arkuit, 7 MINUTES AGO</small>
+                  </div>
+                 
+              </div>
+
+              <span class="edit">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+              </span>
+
+            </div>
+
+            <div class="photo">
+              <img src="images/feeds/feed-4.JPG" alt="feed">
+            </div>
+
+            <div class="action-buttons">
+              <div class="interaction-buttons">
+                <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                <span> <i class="fa fa-comment-o"></i></span>
+                <span> <i class="fa fa-share-square-o" aria-hidden="true"></i> </span>
+              </div>
+              <div class="bookmark">
+                <span> <i class="fa fa-bookmark-o"></i> </span>
+              </div>
+            </div>
+
+            <div class="liked-by">
+              <span><img src="images/profile/walter-profile.jpg" alt=""></span>
+              <span><img src="images/profile/p1.jpg" alt=""></span>
+              <span><img src="images/profile/seeda-profile.jpg" alt=""></span>
+              <p>Liked by <b class="name-comment"> Ahmed Adil </b>  and <b class="name-comment"> 2, 327 others </b> </p>
+            </div>
+
+            <div class="caption">
+              <p>
+                <b class="name-comment">Momin Nurein</b> Lorem ipsum dolor sit amet consectetur. <span class="hash-tag">#lifestyle</span>
+              </p>
+            </div>
+
+            <div class="comments text-muted"> View All 277 comments </div>
+
+          </div>
+
+
+           <!-- ====================== Feeds 3 ========================= -->
+
+           <div class="feed">
+
+            <div class="head">
+              <div class="user">
+                  <div class="profile-photo">
+                    <img src="images/profile/Alameen-profile.jpg" alt="profile">
+                  </div>
+                  <div class="info">
+                    <h3>Alameen Hayder</h3>
+                    <small class="text-muted">Awliaa Mount, 2 HOUR AGO</small>
+                  </div>
+                 
+              </div>
+
+              <span class="edit">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+              </span>
+
+            </div>
+
+            <div class="photo">
+              <img src="images/feeds/feed-2.jpg" alt="feed">
+            </div>
+
+            <div class="action-buttons">
+              <div class="interaction-buttons">
+                <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                <span> <i class="fa fa-comment-o"></i></span>
+                <span> <i class="fa fa-share-square-o" aria-hidden="true"></i> </span>
+              </div>
+              <div class="bookmark">
+                <span> <i class="fa fa-bookmark-o"></i> </span>
+              </div>
+            </div>
+
+            <div class="liked-by">
+              <span><img src="images/profile/walter-profile.jpg" alt=""></span>
+              <span><img src="images/profile/p1.jpg" alt=""></span>
+              <span><img src="images/profile/seeda-profile.jpg" alt=""></span>
+              <p>Liked by <b class="name-comment">Mohamed Ahmed </b>  and <b class="name-comment"> 1, 302 others </b> </p>
+            </div>
+
+            <div class="caption">
+              <p>
+                <b class="name-comment">Ahmed Adil</b> Lorem ipsum dolor sit amet consectetur. <span class="hash-tag">#lifestyle</span>
+              </p>
+            </div>
+
+            <div class="comments text-muted"> View All 118 comments </div>
+
+          </div>
+
+           <!-- ====================== Feeds 4 ========================= -->
+
+           <div class="feed">
+
+            <div class="head">
+              <div class="user">
+                  <div class="profile-photo">
+                    <img src="images/profile/abdu-profile.jpg" alt="profile">
+                  </div>
+                  <div class="info">
+                    <h3>Abdullah Emad</h3>
+                    <small class="text-muted">Tuti Beach, 3 HOUR AGO</small>
+                  </div>
+                 
+              </div>
+
+              <span class="edit">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+              </span>
+
+            </div>
+
+            <div class="photo">
+              <video controls>
+                <source src="vedioes/abdullah.mp4" type="video/mp4">
+              </video>
+            </div>
+
+            <div class="action-buttons">
+              <div class="interaction-buttons">
+                <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                <span> <i class="fa fa-comment-o"></i></span>
+                <span> <i class="fa fa-share-square-o" aria-hidden="true"></i> </span>
+              </div>
+              <div class="bookmark">
+                <span> <i class="fa fa-bookmark-o"></i> </span>
+              </div>
+            </div>
+
+            <div class="liked-by">
+              <span><img src="images/profile/walter-profile.jpg" alt=""></span>
+              <span><img src="images/profile/p1.jpg" alt=""></span>
+              <span><img src="images/profile/seeda-profile.jpg" alt=""></span>
+              <p>Liked by <b class="name-comment"> Altayeb Elfadel </b>  and <b class="name-comment"> 500,306 others </b> </p>
+            </div>
+
+            <div class="caption">
+              <p>
+                <b class="name-comment">Abdullah Emad</b> Lorem ipsum dolor sit amet consectetur. <span class="hash-tag">#Freestyle_Football</span>
+              </p>
+            </div>
+
+            <div class="comments text-muted"> View All 118 comments </div>
+
+           </div>
+
+
+           <!-- ====================== Feeds 5 ========================= -->
+
+           <div class="feed">
+
+            <div class="head">
+              <div class="user">
+                  <div class="profile-photo">
+                    <img src="images/profile/p9.jpg" alt="profile">
+                  </div>
+                  <div class="info">
+                    <h3>Aymen Khalid</h3>
+                    <small class="text-muted">Airport District, 8 HOUR AGO</small>
+                  </div>
+                 
+              </div>
+
+              <span class="edit">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+              </span>
+
+            </div>
+
+            <div class="photo">
+              <img src="images/feeds/feed-8.jpg" alt="feed">
+            </div>
+
+            <div class="action-buttons">
+              <div class="interaction-buttons">
+                <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                <span> <i class="fa fa-comment-o"></i></span>
+                <span> <i class="fa fa-share-square-o" aria-hidden="true"></i> </span>
+              </div>
+              <div class="bookmark">
+                <span> <i class="fa fa-bookmark-o"></i> </span>
+              </div>
+            </div>
+
+            <div class="liked-by">
+              <span><img src="images/profile/walter-profile.jpg" alt=""></span>
+              <span><img src="images/profile/p1.jpg" alt=""></span>
+              <span><img src="images/profile/seeda-profile.jpg" alt=""></span>
+              <p>Liked by <b class="name-comment">Mohamed Ahmed </b>  and <b class="name-comment"> 2, 026 others </b> </p>
+            </div>
+
+            <div class="caption">
+              <p>
+                <b class="name-comment">Aymen Khalid</b> Lorem ipsum dolor sit amet consectetur. <span class="hash-tag">#Freestyle Football</span>
+              </p>
+            </div>
+
+            <div class="comments text-muted"> View All 118 comments </div>
+
+          </div>
+
+            <!-- ====================== Feeds 6 ========================= -->
+
+            <div class="feed">
+
+              <div class="head">
+                <div class="user">
+                    <div class="profile-photo">
+                      <img src="images/profile/p1.jpg" alt="profile">
+                    </div>
+                    <div class="info">
+                      <h3>Mohamed Ahmed Badr Eldin</h3>
+                      <small class="text-muted">Alneelain University, 3 HOUR AGO</small>
+                    </div>
+                   
+                </div>
+  
+                <span class="edit">
+                  <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                </span>
+  
+              </div>
+  
+              <div class="photo">
+                <img src="images/feeds/feed-3.jpg" alt="">
+              </div>
+  
+              <div class="action-buttons">
+                <div class="interaction-buttons">
+                  <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                  <span> <i class="fa fa-comment-o"></i></span>
+                  <span> <i class="fa fa-share-square-o" aria-hidden="true"></i> </span>
+                </div>
+                <div class="bookmark">
+                  <span> <i class="fa fa-bookmark-o"></i> </span>
+                </div>
+              </div>
+  
+              <div class="liked-by">
+                <span><img src="images/profile/walter-profile.jpg" alt=""></span>
+                <span><img src="images/profile/p1.jpg" alt=""></span>
+                <span><img src="images/profile/seeda-profile.jpg" alt=""></span>
+                <p>Liked by <b class="name-comment"> Altayeb Elfadel </b>  and <b class="name-comment"> 700,149 others </b> </p>
+              </div>
+  
+              <div class="caption">
+                <p>
+                  <b class="name-comment">Mohamed Ahmed</b> Lorem ipsum dolor sit amet consectetur. <span class="hash-tag">#lifestyle</span>
+                </p>
+              </div>
+  
+              <div class="comments text-muted"> View All 48 comments </div>
+  
+             </div>
+
+
+              <!-- ====================== Feeds 7 ========================= -->
+
+           <div class="feed">
+
+            <div class="head">
+              <div class="user">
+                  <div class="profile-photo">
+                    <img src="images/profile/walter-profile.jpg" alt="profile">
+                  </div>
+                  <div class="info">
+                    <h3>Ahmed Adil</h3>
+                    <small class="text-muted">Alkhartoum, 2 DAYS AGO</small>
+                  </div>
+                 
+              </div>
+
+              <span class="edit">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+              </span>
+
+            </div>
+
+            <div class="photo">
+              <img src="images/feeds/feed-15.jpg" alt="feed">
+            </div>
+
+            <div class="action-buttons">
+              <div class="interaction-buttons">
+                <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                <span> <i class="fa fa-comment-o"></i></span>
+                <span> <i class="fa fa-share-square-o" aria-hidden="true"></i> </span>
+              </div>
+              <div class="bookmark">
+                <span> <i class="fa fa-bookmark-o"></i> </span>
+              </div>
+            </div>
+
+            <div class="liked-by">
+              <span><img src="images/profile/walter-profile.jpg" alt=""></span>
+              <span><img src="images/profile/p1.jpg" alt=""></span>
+              <span><img src="images/profile/seeda-profile.jpg" alt=""></span>
+              <p>Liked by <b class="name-comment">Mohamed Ahmed </b>  and <b class="name-comment"> 3, 271 others </b> </p>
+            </div>
+
+            <div class="caption">
+              <p>
+                <b class="name-comment">Ahmed Adil</b> Lorem ipsum dolor sit amet consectetur. <span class="hash-tag">#lifestyle</span>
+              </p>
+            </div>
+
+            <div class="comments text-muted"> View All 238 comments </div>
+
+          </div>
+
+            <!-- ====================== Feeds 8 ========================= -->
+
+            <div class="feed">
+
+              <div class="head">
+                <div class="user">
+                    <div class="profile-photo">
+                      <img src="images/profile/saif-profile.jpg" alt="profile">
+                    </div>
+                    <div class="info">
+                      <h3>Saif Mohamed Elias</h3>
+                      <small class="text-muted">Alhdoor, 1 DAYS AGO</small>
+                    </div>
+                   
+                </div>
+  
+                <span class="edit">
+                  <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                </span>
+  
+              </div>
+  
+              <div class="photo">
+                <img src="images/feeds/feed-14.jpg" alt="feed">
+              </div>
+  
+              <div class="action-buttons">
+                <div class="interaction-buttons">
+                  <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                  <span> <i class="fa fa-comment-o"></i></span>
+                  <span> <i class="fa fa-share-square-o" aria-hidden="true"></i> </span>
+                </div>
+                <div class="bookmark">
+                  <span> <i class="fa fa-bookmark-o"></i> </span>
+                </div>
+              </div>
+  
+              <div class="liked-by">
+                <span><img src="images/profile/walter-profile.jpg" alt=""></span>
+                <span><img src="images/profile/p1.jpg" alt=""></span>
+                <span><img src="images/profile/seeda-profile.jpg" alt=""></span>
+                <p>Liked by <b class="name-comment">Ebrahim Mustafa </b>  and <b class="name-comment"> 1, 234 others </b> </p>
+              </div>
+  
+              <div class="caption">
+                <p>
+                  <b class="name-comment">Saif Mohamed Elias</b> Lorem ipsum dolor sit amet consectetur. <span class="hash-tag">#lifestyle</span>
+                </p>
+              </div>
+  
+              <div class="comments text-muted"> View All 208 comments </div>
+  
+            </div>
+
+
+            
+
+
+        </div>
+
+        <!-- ====================== END OF FEEDS ========================= -->
+
+
+
+       </div>
+       <!-- ========================= END OF MIDDLE ========================== -->
+
+
+       <!-- ========================= RIGHT ============================ -->
+
+        <div class="right">
+          <div class="messages">
+            
+            <div class="heading">
+              <h4>Messages</h4>
+              <i class="fa fa-edit"></i>
+            </div>
+              <!-- ============== SEARCH BAR =============== -->
+              <div class="search-bar">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="search" placeholder="Search messages" id="message-search">
+              </div>
+           
+
+              <!-- ============== MESSAGES CATEGORY =============== -->
+
+              <div class="category">
+                <h6 class="active">primary</h6>
+                <h6>General</h6>
+                <h6 class="message-requests">Requests(7)</h6>
+              </div>
+
+              <!-- ============== MESSAGES =============== -->
+
+              <div class="message">
+                <div class="profile-photo">
+                  <img src="images/profile/altayeb-profile.jpg" alt="profile">
+                  <div class="active"></div>
+                </div>
+                <div class="message-body">
+                  <h5>Altayeb Elfadel</h5>
+                  <p class="text-muted">Lets Go University</p>
+                </div>
+              </div>
+
+              <div class="message">
+                <div class="profile-photo">
+                  <img src="images/profile/shaweesh-profile.jpg" alt="profile">
+                </div>
+                <div class="message-body">
+                  <h5>Momin Nurien</h5>
+                  <p class="text-bold"> 4 New Messages</p>
+                </div>
+              </div>
+
+              <div class="message">
+                <div class="profile-photo">
+                  <img src="images/profile/seeda-profile.jpg" alt="profile">
+                </div>
+                <div class="message-body">
+                  <h5>Ahmed Adam</h5>
+                  <p class="text-bold">2 New Messages</p>
+                </div>
+              </div>
+
+              <div class="message">
+                <div class="profile-photo">
+                  <img src="images/profile/walter-profile.jpg" alt="profile">
+                  <div class="active"></div>
+                </div>
+                <div class="message-body">
+                  <h5>Ahmed Adil</h5>
+                  <p class="text-muted">ok</p>
+                </div>
+              </div>
+
+              <div class="message">
+                <div class="profile-photo">
+                  <img src="images/profile/Alameen-profile.jpg" alt="profile">
+                </div>
+                <div class="message-body">
+                  <h5>Ameen Hayder</h5>
+                  <p class="text-bold">Volleyball Training Tonight</p>
+                </div>
+              </div>
+
+          </div>
+          
+
+              <!-- ============== END OF MESSAGES =============== -->
+
+
+              <!-- ============== FRIENDS REQUESTS =============== -->
+
+              <div class="friend-requests">
+                <h4>Requests</h4>
+
+                <div class="request">
+                  <div class="info">
+                    <div class="profile-photo">
+                      <img src="images/profile/p5.jpg" alt="profile">
+                    </div>
+                    <div class="req-name">
+                      <h5>Ahmed Khalid</h5>
+                      <p class="text-muted">
+                        8 metual friends
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="action">
+                    <button class="btn btn-primary">Accept</button>
+                    <button class="btn">Decline</button>
+                  </div>
+
+                </div>
+
+                <div class="request">
+                  <div class="info">
+                    <div class="profile-photo">
+                      <img src="images/profile/nour-profile.jpg" alt="profile">
+                    </div>
+                    <div class="req-name">
+                      <h5>Nour Alhuda Algssim</h5>
+                      <p class="text-muted">
+                        250 metual friends
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="action">
+                    <button class="btn btn-primary">Accept</button>
+                    <button class="btn">Decline</button>
+                  </div>
+
+                </div>
+
+                <div class="request">
+                  <div class="info">
+                    <div class="profile-photo">
+                      <img src="images/profile/brayz-profile.jpg" alt="profile">
+                    </div>
+                    <div class="req-name">
+                      <h5>Brayz Mohamed</h5>
+                      <p class="text-muted">
+                        6 metual friends
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="action">
+                    <button class="btn btn-primary">Accept</button>
+                    <button class="btn">Decline</button>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <!-- ============== END OF FRIENDS REQUESTS =============== -->
+
+
+        </div>
+        </div>
+
+       <!-- ========================= END OF RIGHT ============================ -->
+
+     </div>
+  </main>
+
+<!-- =========================================== THEME CUSTOMIZATION ======================================= -->
+
+<div class="customize-theme">
+  <div class="card">
+    <h2 class="card-title">Customize your view</h2>
+    <p class="text-muted">manage your font size, color, and background</p>
+
+    <!-- ======================= FONT SIZE ========================= -->
+
+    <div class="font-size">
+      <h4>Font Size</h4>
+      <div>
+        <h6>Aa</h6>
+        <div class="choose-size">
+          <span class="font-size-1"></span>
+          <span class="font-size-2 active"></span>
+          <span class="font-size-3"></span>
+          <span class="font-size-4"></span>
+          <span class="font-size-5"></span>
+        </div>
+        <h3>Aa</h3>
+      </div>
+    </div>
+
+
+    <!-- ======================= PRIMARY COLORS ========================= -->
+
+    <div class="color">
+      <h4>Color</h4>
+      <div class="choose-color">
+          <span class="color-1 active"></span>
+          <span class="color-2"></span>
+          <span class="color-3"></span>
+          <span class="color-4"></span>
+          <span class="color-5"></span>
+      </div>
+    </div>
+
+    <!-- ======================= BACKGROUND COLORS ========================= -->
+
+    <div class="background">
+      <h4>Background</h4>
+      <div class="choose-bg">
+        <div class="bg-1 active">
+          <span></span>
+          <h5 for="bg-1 active">Light</h5>
+        </div>
+        <div class="bg-2">
+          <span></span>
+          <h5>Dim</h5>
+        </div>
+        <div class="bg-3">
+          <span></span>
+          <h5 for="bg-3">Lights Out</h5>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
